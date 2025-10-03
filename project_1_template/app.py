@@ -12,9 +12,6 @@ def index():
 
 @app.route('/info')
 def info():
-    # TODO: add your info.html call. 
-    # A sample info.html file is already included. Please check info.html file and add your information
-    # in that page as well.
     return render_template('info.html')
 
 if __name__ == '__main__':
